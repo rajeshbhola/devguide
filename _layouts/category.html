@@ -6,7 +6,7 @@ title: Category
 
     <ul>
         {% for post in site.categories[page.category] %}
-            <li><a href="{{relative_url}}{{ post.url }}">{{ post.title }}</a></li>
+            <li><a href="{{ post.relative_url }}">{{ post.title }}</a></li>
         {% endfor %}
     </ul>
 
