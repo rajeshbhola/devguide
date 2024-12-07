@@ -1,26 +1,22 @@
 <div class="footer">
-	<div class="container">
-		<p class="copy">
-			&copy; {{ site.time | date: '%Y' }}
-			<a href="https://bholacodecamp.in">bholacodecamp.in</a> Powered by
-			<a href="https://rajeshbhola.github.io">Rajesh Bhola</a>
-		</p>
-		<a href="{{site.baseurl}}/">Home</a>&nbsp;&nbsp;
-		<a href="{{site.baseurl}}/privacy-policy">Privacy Policy</a>
-		<br>
-		<div class="footer-links">	
-			<ul class="noList">
-				{%- if site.social.twitter -%}
-					{%- include footer_links/twitter_icon.html -%}
-				{%- endif -%}
-				{%- if site.social.github -%}
-					{%- include footer_links/github_icon.html -%}
-				{%- endif -%}
-				{%- if site.social.youtube -%}
-					{%- include footer_links/youtube_icon.html -%}
-				{%- endif -%}
-			</ul>
-		</div>
-	</div>
+  <div class="container">
+    <p class="copy">
+      &copy; {{ site.time | date: '%Y' }}
+      <a href="https://bholacodecamp.in">bholacodecamp.in</a> Powered by
+      <a href="https://rajeshbhola.github.io">Rajesh Bhola</a>
+    </p>
+    <a href="{{site.baseurl}}/">Home</a>&nbsp;&nbsp;
+    <a href="{{site.baseurl}}/privacy-policy">Privacy Policy</a>
+    <br />
+    <div class="footer-links">
+      <ul class="noList">
+        {%- if site.social.twitter -%} {%- include
+        footer_links/twitter_icon.html -%} {%- endif -%} {%- if
+        site.social.github -%} {%- include footer_links/github_icon.html -%} {%-
+        endif -%} {%- if site.social.youtube -%} {%- include
+        footer_links/youtube_icon.html -%} {%- endif -%}
+      </ul>
+    </div>
+  </div>
 </div>
 <!-- end .footer -->

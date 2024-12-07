@@ -1,37 +1,40 @@
 <div class="header {% if site.header == 'large' %}header--large{% endif %}">
   <div class="container">
     <div class="brand">
-      
-        <h1 class="logo">
-          <span class="logo-img">
-            <a href="/bholacodecamp"><img
+      <h1 class="logo">
+        <span class="logo-img">
+          <a href="/bholacodecamp"
+            ><img
               src="{{site.baseurl}}/assets/img/logo.webp"
-              alt="bholaCodeCamp logo" class="brand-logo-img"
-            /></a>
-          </span>
-          &nbsp;bholaCodeCamp
-        </h1>
-      
-      
-     
+              alt="bholaCodeCamp logo"
+              class="brand-logo-img"
+          /></a>
+        </span>
+        &nbsp;bholaCodeCamp
+      </h1>
     </div>
 
     <nav class="nav-collapse">
       <ul class="noList">
-        {%- for link in site.navigation -%} 
-          {%- assign current = nil -%}
-          {%- if page.url contains link.url or forloop.first and page.url == '/' or page.url == 'index.html' -%}
-            {%- assign current = 'current' -%}
-          {%- endif -%}
-          <li class="element {%- if forloop.first -%}first{%- endif -%} {{ current }} {%- if forloop.last -%}last{%- endif -%}">
-            <a href="{{ link.url | relative_url }}">
-              <i class="{{ site.icons[forloop.index0] }}"></i> <!-- Use the current loop index for the icon -->
-              {{ link.title }}
-            </a>
-          </li>
+        {%- for link in site.navigation -%} {%- assign current = nil -%} {%- if
+        page.url contains link.url or forloop.first and page.url == '/' or
+        page.url == 'index.html' -%} {%- assign current = 'current' -%} {%-
+        endif -%}
+        <li
+          class="element {%- if forloop.first -%}first{%- endif -%} {{ current }} {%- if forloop.last -%}last{%- endif -%}"
+        >
+          <a href="{{ link.url | relative_url }}">
+            <i class="{{ site.icons[forloop.index0] }}"></i>
+            <!-- Use the current loop index for the icon -->
+            {{ link.title }}
+          </a>
+        </li>
         {%- endfor -%}
         <li>
-          <a href="https://github.com/rajeshbhola?tab=repositories" target="_blank">
+          <a
+            href="https://github.com/rajeshbhola?tab=repositories"
+            target="_blank"
+          >
             <i class="fab fa-github"></i> GitHub
           </a>
         </li>
@@ -42,7 +45,6 @@
         </li>
       </ul>
     </nav>
-    
   </div>
 </div>
 
@@ -57,74 +59,71 @@
     margin-top: -3em;
   }
   h1.logo {
-  display: inline-flex;
-  align-items: center;
-  font-size: 36px; /* Adjust the font size to match the overall header */
-  font-weight: bold;
-  letter-spacing: 0.1em;
-  text-transform: none;
-}
-
-h1.logo .logo-img {
-  display: inline-block;
-  width: 70px;  /* Make sure the width of the logo matches the size you need */
-  height: 70px; /* Adjust the height accordingly */
-  margin-left: 10px;
-}
-
-h1.logo a {
-  text-decoration: none;
-  color: inherit; /* This makes the text color the same as the header */
-}
-/* Mobile Sizes (max-width: 600px) */
-@media (max-width: 600px) {
-  
-  .brand-logo-img {
-    margin-left: 0px;
-  }
-  h1.logo {
-    font-size: 24px;
-    margin-top: -20px; /* Slightly smaller font for tablets */
-    margin-left: -30px;
-  }
-  h1.logo .logo-img {
-    height: 50px; /* Resize the image for smaller screens */
-    margin-left: -4px; /* Adjust image position */
-  }
-}
-
-/* Tablet Sizes (max-width: 768px) */
-@media (max-width: 768px) {
-  h1.logo {
-    font-size: 24px;
-    margin-top: -10px; /* Slightly smaller font for tablets */
-    margin-left: -30px;
+    display: inline-flex;
+    align-items: center;
+    font-size: 36px; /* Adjust the font size to match the overall header */
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    text-transform: none;
   }
 
   h1.logo .logo-img {
-    height: 40px; /* Resize the image for tablet screens */
-    margin-left: -5px;
-  }
-  .brand-logo-img {
-    margin-left: 0px;
-  }
-  .nav-toggle {
-    margin-top: -3em;
+    display: inline-block;
+    width: 70px; /* Make sure the width of the logo matches the size you need */
+    height: 70px; /* Adjust the height accordingly */
+    margin-left: 10px;
   }
 
-}
-
-/* Desktop Sizes (min-width: 1024px) */
-@media (min-width: 1024px) {
-  h1.logo {
-    font-size: 60px; /* Larger font size for desktop screens */
+  h1.logo a {
+    text-decoration: none;
+    color: inherit; /* This makes the text color the same as the header */
+  }
+  /* Mobile Sizes (max-width: 600px) */
+  @media (max-width: 600px) {
+    .brand-logo-img {
+      margin-left: 0px;
+    }
+    h1.logo {
+      font-size: 24px;
+      margin-top: -20px; /* Slightly smaller font for tablets */
+      margin-left: -30px;
+    }
+    h1.logo .logo-img {
+      height: 50px; /* Resize the image for smaller screens */
+      margin-left: -4px; /* Adjust image position */
+    }
   }
 
-  h1.logo .logo-img {
-    height: 70px; /* Larger image size for larger screens */
-    margin-left: -8px;
-    margin-right: -8px;
-  }
-}
+  /* Tablet Sizes (max-width: 768px) */
+  @media (max-width: 768px) {
+    h1.logo {
+      font-size: 24px;
+      margin-top: -10px; /* Slightly smaller font for tablets */
+      margin-left: -30px;
+    }
 
+    h1.logo .logo-img {
+      height: 40px; /* Resize the image for tablet screens */
+      margin-left: -5px;
+    }
+    .brand-logo-img {
+      margin-left: 0px;
+    }
+    .nav-toggle {
+      margin-top: -3em;
+    }
+  }
+
+  /* Desktop Sizes (min-width: 1024px) */
+  @media (min-width: 1024px) {
+    h1.logo {
+      font-size: 60px; /* Larger font size for desktop screens */
+    }
+
+    h1.logo .logo-img {
+      height: 70px; /* Larger image size for larger screens */
+      margin-left: -8px;
+      margin-right: -8px;
+    }
+  }
 </style>

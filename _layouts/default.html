@@ -2,34 +2,36 @@
 <!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
 <!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" <![endif]-->
 <!--[if IE 8]><html class="no-js lt-ie9" <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
 
-{%- include head.html -%}
+  {%- include head.html -%}
 
-<body>
-
+  <body>
     <!-- Loading Spinner with Logo -->
     <div id="loading-spinner">
       <div class="spinner-container">
-        <img src="{{site.baseurl}}/assets/img/logo.webp" alt="bholaCodeCamp logo"  height="80" /> 
-          <div class="spinner"></div>
+        <img
+          src="{{site.baseurl}}/assets/img/logo.webp"
+          alt="bholaCodeCamp logo"
+          height="80"
+        />
+        <div class="spinner"></div>
       </div>
     </div>
 
-   {%- include header.html -%}
+    {%- include header.html -%}
 
+    <div class="content">
+      <div class="container">{{ content }}</div>
+    </div>
+    <!-- end .content -->
 
-   <div class="content">
-      <div class="container">
-         {{ content }}
-      </div>
-   </div><!-- end .content -->
+    {%- include footer.html -%} {%- include scripts.html -%}
 
-   {%- include footer.html -%}
-   {%- include scripts.html -%}
-
-   <button id="backToTop" title="Go to top" style="display: block;"><i class="fas fa-arrow-up"></i></button>
-
-</body>
-
+    <button id="backToTop" title="Go to top" style="display: block">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+  </body>
 </html>

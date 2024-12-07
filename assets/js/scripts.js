@@ -13,16 +13,21 @@ $(document).ready(function () {
   });
 });
 
-
-
-$(document).ready(function() { 
-	// Show the button when the user scrolls down 100px from the top 
-	$(window).scroll(function() { if ($(this).scrollTop() > 100) { $('#backToTop').fadeIn(); } else { $('#backToTop').fadeOut(); } }); 
-	// Scroll to the top of the page when the button is clicked 
-	$('#backToTop').click(function() { $('html, body').animate({ scrollTop: 0 }, 'smooth'); return false; 
-  }); 
+$(document).ready(function () {
+  // Show the button when the user scrolls down 100px from the top
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 100) {
+      $("#backToTop").fadeIn();
+    } else {
+      $("#backToTop").fadeOut();
+    }
+  });
+  // Scroll to the top of the page when the button is clicked
+  $("#backToTop").click(function () {
+    $("html, body").animate({ scrollTop: 0 }, "smooth");
+    return false;
+  });
 });
-
 
 window.addEventListener("load", function () {
   // Add a delay of 3 seconds before hiding the loading spinner
