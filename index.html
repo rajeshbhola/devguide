@@ -12,7 +12,7 @@ title: bholacodecamp
 			<h3>
 				<a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
 			</h3>
-			<p class="description">{%- if post.description -%}{{ post.description  | strip_html | strip_newlines | truncate: 120 }}{%- else -%}{{ post.content | strip_html | strip_newlines | truncate: 120 }}{%- endif -%}</p>
+			<p class="description">{%- if post.description -%}{{ post.description  | strip_html | strip_newlines | truncate: 100 }}{%- else -%}{{ post.content | strip_html | strip_newlines | truncate: 100 }}{%- endif -%}</p>
 		</article><br>
 		{%- endfor -%}
 	</div>

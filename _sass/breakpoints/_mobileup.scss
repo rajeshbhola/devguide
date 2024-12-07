@@ -553,7 +553,6 @@ strong, b {
 p, ul, li {
 	color: gray;
 	font-size: 22px;
-	word-spacing: 5px;
 }
 .date {
 	color: yellow;
@@ -606,4 +605,11 @@ p, ul, li {
 	  transform: translate(-50%, -50%) rotate(360deg);
 	}
   }
-  
+a:-webkit-any-link {
+    color: #6577dd;
+    cursor: pointer;
+    text-decoration: none;
+}
+a:hover {
+text-decoration: underline;
+}

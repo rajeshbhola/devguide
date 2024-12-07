@@ -11,7 +11,9 @@ date: 2024-11-01
 
 ## Introduction
 
-Creating a simple Grails application is a straightforward process. Here’s a quick step-by-step guide to get you started. And this process is applicable for both VS Code and Intellij Ultimate Edition IDE.
+Creating a simple Grails application is a straight-forward process. Here’s a quick step-by-step guide to get you started.
+ 
+And this process is applicable for both VS Code and Intellij Ultimate Edition IDE.
 <br>
 <br>
 
