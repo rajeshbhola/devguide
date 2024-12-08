@@ -3,7 +3,7 @@ description: At bholaCodeCamp, I'm dedicated to helping developers at all levels
 
 url: https://rajeshbhola.github.io/
 # Only necessary when hosting your site in a sub-directory. Project sites hosted on GitHub Pages are the common use-case of this variable.
-baseurl: # Ex: /project-page
+baseurl: /bholacodecamp # Ex: /project-page
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
 
