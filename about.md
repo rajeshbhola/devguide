@@ -8,7 +8,7 @@ title: About bholaCodeCamp
   <div class="about-me checkerboard">
     <div style="text-align: center; padding: 15px;border-radius: 10px; color: whitesmoke; font-weight: bold;">
       <img src="https://avatars.githubusercontent.com/u/82930824?v=4" alt="Avatar" class="avatar">
-      <a href="https://github.com/rajeshbhola?tab=repositories">
+      <a href="https://rajeshbhola.github.io">
         <img src="https://img.shields.io/badge/Author-Rajesh Bhola-slateblue" alt="Rajesh Bhola" height="32"> 
       </a><br>
       <div style="display: flex; justify-content: center; align-items: center; font-size: 18px;">
