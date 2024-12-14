@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to Create a Simple Grails Application"
-date: 2024-11-01
+date: 2024-12-01
 ---
 
 **Table of Contents**
