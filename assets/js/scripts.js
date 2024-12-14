@@ -33,5 +33,5 @@ window.addEventListener("load", function () {
   // Add a delay of 3 seconds before hiding the loading spinner
   setTimeout(function () {
     document.getElementById("loading-spinner").style.display = "none";
-  }, 300); // 3000 milliseconds = 3 seconds
+  }, 200); // 3000 milliseconds = 3 seconds
 });
