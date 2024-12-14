@@ -35,12 +35,8 @@ title: About bholaCodeCamp
   <br>
   <h2>What You'll Learn</h2>
   <ul>
-    <li style="margin-bottom: 30px;"><b>Java:</b> Enhance your skills in Java, one of the most popular and versatile programming languages, with in-depth tutorials and practical examples.</li>
-    <li style="margin-bottom: 30px;"><b>Spring Boot:</b> Master Spring Boot to create robust, scalable, and efficient backend applications with ease.</li>
-    <li style="margin-bottom: 30px;"><b>Microservices:</b> Understand the architecture and implementation of microservices to build modular and highly maintainable applications.</li>
     <li style="margin-bottom: 30px;"><b>Backend Development:</b> Dive into server-side technologies, frameworks, and best practices for building secure and efficient backend systems.</li>
     <li style="margin-bottom: 30px;"><b>Frontend Development:</b> Learn the latest trends and techniques in web design and frontend development, from HTML and CSS to JavaScript and modern frameworks.</li>
-    <li style="margin-bottom: 30px;"><b>Web Design:</b> Explore design principles, tools, and techniques to create visually appealing and user-friendly websites.</li>
     <li style="margin-bottom: 30px;"><b>Artificial Intelligence (AI):</b> Delve into the world of AI with tutorials and AI-driven applications.</li>
     <li style="margin-bottom: 30px;"><b>Databases:</b> Gain expertise in managing and optimizing databases, including SQL and NoSQL technologies.</li>
     <li style="margin-bottom: 30px;"><b>Tools and Technologies:</b> Stay updated with the latest tools, libraries, and technologies to enhance your development workflow and productivity.</li>
