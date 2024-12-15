@@ -297,8 +297,7 @@ POST NAV STYLING
 ***************/
 
 .postNav {
-  border-top: 1px solid darken(white, 10%);
-  border-bottom: 1px solid darken(white, 10%);
+  
   overflow: hidden;
 
   .prev,
@@ -504,10 +503,7 @@ DARK THEME STYLING
     color: yellow;
   }
 
-  .postNav {
-    border-top: 1px solid lighten(black, 10%);
-    border-bottom: 1px solid lighten(black, 10%);
-  }
+  
 
   .footer .container {
     border-top-color: lighten(black, 10%);
