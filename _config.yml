@@ -1,9 +1,9 @@
-title: bholaCodeCamp
-description: At bholaCodeCamp, I'm dedicated to helping developers at all levels enhance their skills and advance their careers. My tutorials, resources, and community are designed to support your learning journey.
+title: DevGuide
+description: At DevGuide, I'm dedicated to helping developers at all levels enhance their skills and advance their careers. My tutorials, resources, and community are designed to support your learning journey.
 
 url: https://rajeshbhola.github.io/
 # Only necessary when hosting your site in a sub-directory. Project sites hosted on GitHub Pages are the common use-case of this variable.
-baseurl: /bholacodecamp # Ex: /project-page
+baseurl: /devguide # Ex: /project-page
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
 
