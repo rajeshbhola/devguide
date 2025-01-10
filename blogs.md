@@ -8,7 +8,7 @@ title: Blogs
   <ul class="posts noList">
     {%- for post in site.posts -%}
       <li>
-      	<span class="date">{{ post.date | date_to_string }}</span>
+      	<span class="date">{{ post.date | date_to_string }} <mark>{{post.tags}}</mark></span>
       	<h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
       </li><br> 
     {%- endfor -%}
