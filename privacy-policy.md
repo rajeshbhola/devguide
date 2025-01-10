@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Privacy Policy bholaCodeCamp
+title: Privacy Policy DevGuide
 ---
 
 <h1 class="pageTitle">Privacy Policy</h1>
 
-At **bholaCodeCamp**, this privacy policy explains how we collect, use, and disclose information from visitors to our website. We are committed to protecting your privacy and providing a safe online experience.
+At **DevGuide**, this privacy policy explains how we collect, use, and disclose information from visitors to our website. We are committed to protecting your privacy and providing a safe online experience.
 
 <b>Information Collection and Use</b>
 We do not collect any personal information from visitors to our website unless you choose to provide it.

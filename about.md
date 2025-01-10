@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About bholaCodeCamp
+title: About DevGuide
 ---
 
 <div class="post">
@@ -30,8 +30,8 @@ title: About bholaCodeCamp
   </div>
   <br>
 
-  <p class="intro1">Welcome to <b>bholaCodeCamp</b>, a comprehensive coding blog dedicated to all things related to programming, technology, and development tools. Whether you're a beginner or an advanced coder, you'll find valuable content that enhance your learning journey.</p>
-  <p>I am Rajesh Bhola, a developer and owner of bholaCodeCamp. As a software engineer, I thrive on problem-solving, delivering quality projects, and sharing my knowledge through blogs.</p>
+  <p class="intro1">Welcome to <b>DevGuide</b>, a comprehensive coding blog dedicated to all things related to programming, technology, and development tools. Whether you're a beginner or an advanced coder, you'll find valuable content that enhance your learning journey.</p>
+  <p>I am Rajesh Bhola, a developer and owner of DevGuide. As a software engineer, I thrive on problem-solving, delivering quality projects, and sharing my knowledge through blogs.</p>
   <br>
   <h2>What You'll Learn</h2>
   <ul>

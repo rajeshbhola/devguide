@@ -1,6 +1,6 @@
 ---
 layout: default
-title: bholacodecamp
+title: DevGuide
 ---
 
 <div class="home" id="home">
@@ -14,11 +14,6 @@ title: bholacodecamp
           >{{ post.title }}</a
         >
       </h3>
-      <p class="description">
-        {%- if post.description -%}{{ post.description | strip_html |
-        strip_newlines | truncate: 100 }}{%- else -%}{{ post.content |
-        strip_html | strip_newlines | truncate: 100 }}{%- endif -%}
-      </p>
     </article>
     <br />
     {%- endfor -%}
