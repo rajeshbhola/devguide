@@ -503,7 +503,12 @@ DARK THEME STYLING
     color: hsl(0, 0%, 50%);;
   }
 
-  
+  mark {
+    background-color: $primary-color;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+  }
 
   .footer .container {
     border-top-color: lighten(black, 10%);

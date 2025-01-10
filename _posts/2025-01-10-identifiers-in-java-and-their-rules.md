@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Identifiers in Java and It's Rules"
+tags: "java"
 date: 2025-01-10
 ---
 

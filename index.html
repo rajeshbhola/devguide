@@ -8,7 +8,7 @@ title: DevGuide
   <div class="posts noList">
     {%- for post in paginator.posts -%}
     <article>
-      <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
+      <span class="date">{{ post.date | date: '%B %d, %Y' }}  <mark>{{post.tags}}</mark></span>
       <h3>
         <a class="post-link" href="{{ post.url | relative_url }}"
           >{{ post.title }}</a
