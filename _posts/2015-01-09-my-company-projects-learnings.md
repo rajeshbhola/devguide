@@ -2,7 +2,7 @@
 layout: post
 title: "Daily Tasks in My Personal and Company Projects"
 tags: "task"
-date: 2025-01-10
+date: 2025-01-09
 ---
 
 Daily Tasks
