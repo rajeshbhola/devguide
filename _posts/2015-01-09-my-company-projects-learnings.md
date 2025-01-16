@@ -17,9 +17,17 @@ Daily Tasks
   - **Project:** <span style="color:teal;">bunnii</span>
   - **Status:** <span style="color:green;">Completed</span>
 <hr>
+
 ## 15 January 2025
 **Task 2:** 
   - **Description:** Created wishlist page, signin page, checkout page and order details page.
   - **Project:** <span style="color:teal;">bunnii</span>
+  - **Status:** <span style="color:green;">Completed</span>
+<hr>
+
+## 1 6January 2025
+**Task 3:** 
+  - **Description:** Setting up wacom tablet and practice writing and help others in work.
+  - **Project:** <span style="color:teal;">others</span>
   - **Status:** <span style="color:green;">Completed</span>
 <hr>
