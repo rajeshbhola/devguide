@@ -25,7 +25,7 @@ Daily Tasks
   - **Status:** <span style="color:green;">Completed</span>
 <hr>
 
-## 1 6January 2025
+## 16 January 2025
 **Task 3:** 
   - **Description:** Setting up wacom tablet and practice writing and help others in work.
   - **Project:** <span style="color:teal;">others</span>
