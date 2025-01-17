@@ -31,3 +31,10 @@ Daily Tasks
   - **Project:** <span style="color:teal;">others</span>
   - **Status:** <span style="color:green;">Completed</span>
 <hr>
+
+## 17 January 2025
+**Task 4:** 
+  - **Description:** Learning operating system and it's goals, types, components, functions of kernel and types of kernel, inter process communication and system calls.
+  - **Project:** <span style="color:teal;">others</span>
+  - **Status:** <span style="color:green;">Completed</span>
+<hr>
