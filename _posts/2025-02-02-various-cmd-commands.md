@@ -35,6 +35,7 @@ Table of Contents
 ⦿ **type** - Display contents of a text file (e.g., type notes.txt).
 
 ⦿ **more** - View file content page-by-page (e.g., more longfile.txt). 
+
 <br><br>
 
 ## Network Commands
@@ -48,9 +49,10 @@ Table of Contents
 ⦿ **netstat** - Display active network connections (use -ano to show process IDs).
 
 ⦿ **nslookup** - Query DNS records (e.g., nslookup google.com).
+
 <br><br>
 
-### System Information & Management
+## System Information & Management
 
 ⦿ **systeminfo** - Display detailed system configuration.
 
@@ -61,6 +63,7 @@ Table of Contents
 ⦿ **shutdown** - Shut down or restart (e.g., shutdown /s /t 0 for immediate shutdown or /r for restart).
 
 ⦿ **sfc /scannow** - Scan and repair system files (requires Admin rights).
+
 <br><br>
 
 ## Disk & Storage
@@ -70,12 +73,14 @@ Table of Contents
 ⦿ **diskpart** - Advanced disk partitioning tool (launches a separate utility).
 
 ⦿ **format** - Format a disk (e.g., format D: /q for quick format).
+
 <br><br>
 
 ## User & Permissions
 ⦿ **whoami** - Display the current username.
 
 ⦿ **net** - userManage user accounts (e.g., net user John shows user details).
+
 <br><br>
 
 ## Miscellaneous
