@@ -79,7 +79,7 @@ Table of Contents
 ## User & Permissions
 ⦿ **whoami** - Display the current username.
 
-⦿ **net** - userManage user accounts (e.g., net user John shows user details).
+⦿ **netuser** - Manage user accounts (e.g., net user John shows user details).
 
 <br><br>
 
@@ -92,5 +92,3 @@ Table of Contents
 ⦿ **help** - List all commands (or use command /? for specific help, e.g., ping /?).
 
 ⦿ **set** - View or modify environment variables.
-
-⦿ **robocopy** - Advanced file copying (e.g., robocopy C:\Source D:\Backup /mir).
